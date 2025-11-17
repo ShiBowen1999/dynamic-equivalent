@@ -1,4 +1,4 @@
-# 500-Bus Power System Simulation Tool
+# 500-Bus Power System Simulation
 
 A Python-based tool for simulating power system dynamics and analyzing fault responses in a 500-bus power system model.
 
@@ -28,7 +28,7 @@ The tools allow users to simulate different types of faults (bus faults, line fa
 
 ## Dependencies
 
-- Python 3.x
+- Python 2.7
 - PSS/E 33 (Power System Simulator for Engineering)
 - pandas
 - matplotlib
@@ -42,11 +42,7 @@ The tools allow users to simulate different types of faults (bus faults, line fa
    git clone https://github.com/yourusername/500bus-simulation.git
    cd 500bus-simulation
    ```
-3. Install required Python packages:
-   ```
-   pip install pandas matplotlib
-   ```
-4. Verify PSS/E path in `func_500bus.py`:
+3. Verify PSS/E path in `func_500bus.py`:
    ```python
    PSSE_BIN_PATH = r'C:\Program Files (x86)\PTI\PSSE33\PSSBIN'
    ```
